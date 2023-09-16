@@ -3,7 +3,7 @@
 ~~~
 pip install selenium
 
-```pip instal selenium ```
+
 
 
 
