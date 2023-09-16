@@ -27,8 +27,10 @@
   send_sms(sender = "50004001238183", receptor = شماره شما, text = sample_text)
 
 ```
+<img src="assets/img.png" width="500">  
 <img src="assets/img2.png" width="500">  
-<img src="assets/img2.png" width="500">  
+
+
 
 
 
