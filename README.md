@@ -23,8 +23,8 @@
   send_sms(sender = "50004001238183", receptor = شماره شما, text = sample_text)
 
 ```
-![Car Image](assets/img.png)
-
+![SMS screenshot](assets/img.png)
+img[alt=img] { width: 200px; }
 
 
 
