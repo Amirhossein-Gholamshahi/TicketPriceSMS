@@ -24,7 +24,7 @@
 
 ```
 ![SMS screenshot](assets/img.png)
-img[alt=img] { width: 200px; }
+img[alt=img] { width: 200px; height: 400px}
 
 
 
