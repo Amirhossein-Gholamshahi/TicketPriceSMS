@@ -23,7 +23,7 @@
   send_sms(sender = "50004001238183", receptor = شماره شما, text = sample_text)
 
 ```
-![SMS screenshot](assets/img.png =100*250)
+<img src="assets/img.png" width="200">
 
 
 
