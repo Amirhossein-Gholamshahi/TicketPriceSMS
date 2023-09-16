@@ -4,6 +4,7 @@
 ``` pip install farsi_tools ```
 ``` pip install requests ```
 
+
 ### نکته: برای اجرای درست برنامه نیاز دارید chrome webdriver را [دانلود](https://chromedriver.chromium.org/downloads) کنید. دقت کنید نسخه مروگر کروم و **chrome webdriver** باید همگام باشند.
 
 ---
