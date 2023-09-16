@@ -1,7 +1,8 @@
 # TicketPriceSMS
-## ابتدا کتابخانه های زیر را نصب کنید 
+## ابتدا کتابخانه های زیر را نصب کنید
 ``` pip install selenium ```  
 ``` pip install farsi_tools ```
+
 ### نکته: برای اجرای درست برنامه نیاز دارید chrome webdriver را از لینک زیر نصب کنید. دقت کنید نسخه مروگر کروم و **chrome webdriver** باید همگام باشند.
 [title](https://www.example.com)
 ---
