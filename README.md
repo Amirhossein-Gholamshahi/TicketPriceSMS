@@ -1,5 +1,5 @@
 # TicketPriceSMS
-## ابتدا کتابخانه های زیر را نصب کنید
+ابتدا کتابخانه های زیر را نصب کنید
 ``` pip install selenium ```  
 ``` pip install farsi_tools ``` \
 ``` pip install requests ```
