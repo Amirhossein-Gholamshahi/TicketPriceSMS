@@ -4,7 +4,7 @@
 
 ## متبد send_sms را با پارامتر های زیر صدا بزنید.
 
-### sender = "500041238183", receptor = شماره شما , text = sample_text
+### sender = "50004001238183", receptor = شماره شما , text = sample_text
 
 
 
