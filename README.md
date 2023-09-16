@@ -1,7 +1,6 @@
 # TicketPriceSMS
 ### ابتدا کتابخانه های زیر را نصب کنید 
-~~~
-pip install selenium
+``` pip install selenium ```
 
 ## متبد send_sms() را با پارامتر های زیر صدا بزنید.
 
