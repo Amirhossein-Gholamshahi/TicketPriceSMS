@@ -6,9 +6,7 @@
 ~~~ get_info_from_alibaba(url2)
 
 
-## متد **()send_sms**  را از **webscrapper.py** وارد کنید.
 
-### sender = "50004001238183", receptor = شماره شما , text = sample_text
 
 
 
