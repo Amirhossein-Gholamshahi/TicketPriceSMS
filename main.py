@@ -1,7 +1,9 @@
 import requests
 from webscrapperselenium import get_info_from_alibaba
 from farsi_tools import standardize_persian_text
-import time
+
+url1 = "https://www.alibabatravels.co/international/THRALL-ISTALL?adult=1&child=0&infant=0&departing=1402-06-24&gclid=CjwKCAjw3oqoBhAjEiwA_UaLtoYiIeKS0j2qZ-LSs6OlWchjtdkPjGWNrKEyMC7hPG_gvYIJFSHotBoCxVYQAvD_BwE"
+url2 = "https://www.alibabatravels.co/international/ISTALL-THRALL?adult=1&child=0&infant=0&departing=1402-06-24&gclid=CjwKCAjw3oqoBhAjEiwA_UaLtiRQYlfn4AhWUc70sYAfZ_YF8zv8lL_hSe2FxPSzLoABSu4yY-FsIBoCMm8QAvD_BwE"
 
 
 def send_sms(sender: str, receptor: str, text: str):
@@ -11,9 +13,14 @@ def send_sms(sender: str, receptor: str, text: str):
 
 
 flight_info = ""
-for key, value in get_info_from_alibaba().items():
+f = get_info_from_alibaba(url2)
+leg1 = f["مبدا"] # NOQA
+leg2 = f["مقصد"] # NOQA
+
+for key, value in f.items():
     flight_info += f"{key} : {value} | "
-sample_text = standardize_persian_text(f"پرواز استانبول به تهران با مشخصات زیر پیدا شد:\n" # NOQA
+
+sample_text = standardize_persian_text(f"پرواز {leg1}  به {leg2} با مشخصات زیر پیدا شد:\n" # NOQA
                                        f"{flight_info}\n"
                                        f"از سفرت جا نمونی \N{slightly smiling face}") # NOQA
 
