@@ -23,7 +23,7 @@
   send_sms(sender = "50004001238183", receptor = شماره شما, text = sample_text)
 
 ```
-![image]("C:\Users\ASUS\Downloads\C23CE7A3-1C9B-4AE5-8018-D50772DE1E8D.png") 
+![image]("img.png") 
 
 
 
