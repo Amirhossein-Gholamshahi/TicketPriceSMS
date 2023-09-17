@@ -33,7 +33,7 @@
 
 
 
-<img align="left" src="assets/img.png" alt="logo" width="500"/> <img align="right" src="assets/img2.png" alt="logo" width="500"/>
+<img align="left" src="assets/img.png" alt="logo" width="500"> <img align="right" src="assets/img2.png" alt="logo" width="500"/>
 
 
 
