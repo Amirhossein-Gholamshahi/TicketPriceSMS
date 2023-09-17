@@ -33,8 +33,8 @@
 
 
 <p float="left">
-<img src="assets/img.png" alt="logo" width="500"/> 
-<img src="assets/img2.png" alt="logo" width="500"/>
+<img src="assets/img.png"  width="500"/> 
+<img src="assets/img2.png" " width="500"/>
 </p>
 
 
