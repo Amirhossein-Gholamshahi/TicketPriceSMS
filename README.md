@@ -33,7 +33,7 @@
 
 
 
-<img src="assets/img.png"  width="800" >  
+<div style="text-align: center"><img src="assets/img.png"  width="800" >  
 
 
 
