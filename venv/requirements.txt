@@ -1,0 +1,4 @@
+chrome webdriver, chrome browser (versions must be the same)
+farsi_tools
+requests
+selenium
