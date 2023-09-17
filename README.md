@@ -32,9 +32,10 @@
  متغییر sample_text در واقع اطلاعات پرواز را با استفاده از کتابخانه **farsi_tools** به صورت خوانا سازمان می دهد.
 
 
-
-<img align="left" src="assets/img.png" alt="logo" width="500"> <img align="right" src="assets/img2.png" alt="logo" width="500"/>
-
+<p float="left">
+<img align="left" src="assets/img.png" alt="logo" width="500"/> 
+<img align="right" src="assets/img2.png" alt="logo" width="500"/>
+</p>
 
 
 
