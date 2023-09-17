@@ -1,9 +1,7 @@
 import requests
 from webscrapperselenium import get_info_from_alibaba
 from farsi_tools import standardize_persian_text
-
-url1 = "https://www.alibabatravels.co/international/THRALL-ISTALL?adult=1&child=0&infant=0&departing=1402-06-24&gclid=CjwKCAjw3oqoBhAjEiwA_UaLtoYiIeKS0j2qZ-LSs6OlWchjtdkPjGWNrKEyMC7hPG_gvYIJFSHotBoCxVYQAvD_BwE"
-url2 = "https://www.alibabatravels.co/international/ISTALL-THRALL?adult=1&child=0&infant=0&departing=1402-06-24&gclid=CjwKCAjw3oqoBhAjEiwA_UaLtiRQYlfn4AhWUc70sYAfZ_YF8zv8lL_hSe2FxPSzLoABSu4yY-FsIBoCMm8QAvD_BwE"
+from webscrapperselenium import url1, url2
 
 
 def send_sms(sender: str, receptor: str, text: str):
@@ -13,7 +11,7 @@ def send_sms(sender: str, receptor: str, text: str):
 
 
 flight_info = ""
-f = get_info_from_alibaba(url2)
+f = get_info_from_alibaba(url1)
 leg1 = f["مبدا"] # NOQA
 leg2 = f["مقصد"] # NOQA
 
