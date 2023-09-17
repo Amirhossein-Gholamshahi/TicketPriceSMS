@@ -33,7 +33,7 @@
 
 
 
-<img src="assets/img.png"  height="500">  
+<img src="assets/img.png"  width="500" height="300"/>  
 
 
 
