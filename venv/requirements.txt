@@ -1,4 +1,4 @@
 chrome webdriver, chrome browser (versions must be the same)
-farsi_tools
-requests
-selenium
+farsi_tools==0.2
+requests== 2.31.0
+selenium==4.12.0
